@@ -476,9 +476,19 @@ h3 {
 .portfolio .imgs-container .box{
     flex-basis: 25%;
 }
+@media (max-width:768px){
+    .portfolio .imgs-container .box{
+        flex-basis:50%;
+    }
+}
+@media (max-width:1199px){
+    .portfolio .imgs-container .box{
+        flex-basis:50%;
+    }
+}
 .portfolio .imgs-container .box img{
     width: 600px;
-    height: 290px;
+    height: 300px;
     max-width: 100%;
 }
 /* end: portfolio*/
