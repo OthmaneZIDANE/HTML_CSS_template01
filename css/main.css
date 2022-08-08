@@ -748,5 +748,16 @@ h3 {
     display: block;
   }
 /* end: quote*/
+/* start: contact*/
+  .contact{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* end: contact*/
 
 /* end: styling*/
