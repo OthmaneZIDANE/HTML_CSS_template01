@@ -397,8 +397,63 @@ h3 {
 
 /* start: section family  */
 .family {
-    width: 100%;
+    background-image: url(../images/fam.jpg);
+    background-position: center;
+    background-size: cover;
     height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.family .overlay-family {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: #cbcbcb4d;
+}
+
+.family .text-family {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+    padding: 40px;
+    background-color: var(--trans-color);
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.family .text-family .content-family {
+    max-width: 520px;
+}
+
+.family .text-family .content-family h2 {
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.family .text-family .content-family p {
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 1.4em;
+
+}
+
+@media (max-width: 767px) {
+    .family .text-family {
+        width: 100%;
+    }
+
+    .family .text-family .content-family h2 {
+        font-size: 18px;
+    }
+
+    .family .text-family .content-family p {
+        font-size: 12px;
+    }
 }
 
 /* end: section family  */
